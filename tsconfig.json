@@ -10,6 +10,8 @@
     "alwaysStrict": true /* Ensure 'use strict' is always emitted. */,
     "noImplicitAny": true /* Enable error reporting for expressions and declarations with an implied 'any' type. */,
     "noImplicitThis": true /* Enable error reporting when 'this' is given the type 'any'. */,
+    "declaration": true,
+    "noEmitOnError": true,
     "noUnusedLocals": true,
     "strictNullChecks": true /* When type checking, take into account 'null' and 'undefined'. */,
     "noImplicitReturns": true,
