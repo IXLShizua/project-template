@@ -10,6 +10,9 @@
     "nodemon:watch": "nodemon ./dist/main.js",
     "dev": "concurrently -p \"[{name}]\" -n \"TSC,Nodemon\" -c \"bgBlue.bold,bgGreen.bold\" \"yarn tsc:watch\" \"yarn nodemon:watch\""
   },
+  "dependencies": {
+    "tslib": "^2.6.2"
+  },
   "devDependencies": {
     "@types/node": "^20.8.7",
     "@typescript-eslint/eslint-plugin": "^6.8.0",

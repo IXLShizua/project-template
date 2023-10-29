@@ -6,6 +6,7 @@
     "module": "NodeNext" /* Specify what module code is generated. */,
     "moduleDetection": "force",
     "moduleResolution": "NodeNext" /* Specify how TypeScript looks up a file from a given module specifier. */,
+    "importHelpers": true,
     "strict": true /* Enable all strict type-checking options. */,
     "alwaysStrict": true /* Ensure 'use strict' is always emitted. */,
     "noImplicitAny": true /* Enable error reporting for expressions and declarations with an implied 'any' type. */,
